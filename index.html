@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html-5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/all.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3 style="width: 20px;border: 2px solid red;padding: 10px;margin: 10px;">sreevidya</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="col-3">A</div>
+                <div class="col-3">B</div>
+            </div>
+            <div class="col-6">
+                <div class="col-3">C</div>
+                <div class="col-3">D</div>
+            </div>
+        </div>
+        <div id="demo"></div>
+        <div id="result"></div>
+        <button onclick="getLocation()">clickit!</button>
+        <button onclick="clickCounter()">try</button>
+        <!--Media-->
+        <audio controls>
+            <source src="images/Neeli Neeli Aakasam-Naasongsmp3.info.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
+        <video width="300" height="150" controls>
+            <source src="images/videoplayback.mp4" type="video/mp4"> 
+        </video>
+        <!-- Canvas@SVG -->
+        <canvas width="400" height="150" id="myCanvas"></canvas>
+        <svg width="200" height="100">
+           <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow"/> 
+        </svg>
+        <form action="" name="myForm" onsubmit="return validateForm()">
+            <input type="text" name="fname">
+            <input type="button" value="submit">
+        </form>
+        <input id="numb">
+        <button onclick="getValue">click</button>
+        <p id="txt"></p>
+    </div>
+</body>
+
+</html>
